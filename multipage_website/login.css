@@ -1,0 +1,127 @@
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background:url(images/login2.png) no-repeat center center/cover ;
+}
+    
+
+.hero img{
+    width: 100%;
+ }  
+.hero .login{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(8, 26, 100, 0.5);
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    border-radius: 20px;
+     }
+
+.hero .login h2{
+    color: #fff;
+}     
+.hero .login form{
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}   
+.hero .login .login2 input{
+    width: 250px;
+    height: 22px; 
+    background: none;
+    border: solid 1px rgb(255, 255, 255); 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.hero .login .login2 input::placeholder{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+ 
+   
+}
+
+   
+
+.hero .login .login2 span{
+    font-size: 18px;
+    color: #c8cad8;
+   
+
+}
+.hero .login .login2 .login3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+   /* margin-left: 10px;
+    margin-right: 10px;*/
+    
+   
+}
+.hero .login .login2 .login3 div{
+    width: 60px;
+    height:60px ;
+    background-color:#fff;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.hero .login .login2 .login3 i{
+    color: green;
+    font-size: 17px;
+}
+
+.hero .login .login2  button{
+    width: 200px;
+    height: 35px;
+    background-color: #f9f3f3;
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 19px;
+    border-radius: 10px;
+    border: .1px solid white;
+}
+.hero .login .login2  button a{
+    text-decoration: none;
+    color: green;
+
+}
+.hero .login .login2  button:hover{
+    background-color: rgba(49, 36, 238, 0.4);
+   
+}
+.hero .login .login2  button a:hover{
+    color: lightgreen;
+}
+
+.hero .baar{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(8, 26, 100, 0.7);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.hero .baar a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    margin: 20px;
+}
+
+
+
+
